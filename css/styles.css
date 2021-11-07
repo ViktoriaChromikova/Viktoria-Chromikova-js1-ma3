@@ -1,0 +1,26 @@
+.loading {
+    margin-left: 50px;
+    border: 15px solid blue;
+    border-top: 15px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+.error {
+    border: solid red;
+    background-color: salmon;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: fit-content;
+}
